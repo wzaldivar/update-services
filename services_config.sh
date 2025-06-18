@@ -20,6 +20,10 @@ updateService() {
       docker compose build --no-cache
       docker compose up -d || exit 1
       ;;
+    "mailcow")
+      # Mailcow example
+      sudo ./update.sh
+      ;;
     *)
       # Standard update logic
       docker compose pull
