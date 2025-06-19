@@ -78,7 +78,7 @@ This will show:
 
 - ✅ Which services would be updated
 - ⛔ What would be skipped
-- 🧼 Which Docker resources would be pruned
+- 🧼 That Docker resources would be pruned
 
 ## 🧼 System Cleanup
 After all updates, if not in dry-run mode, the script runs:
