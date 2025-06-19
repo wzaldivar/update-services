@@ -42,8 +42,8 @@ From the root directory, run:
 | Option | Description |
 | --- | --- |
 | ```--all``` | Update all service directories, ignoring default exclusions |
-| ```--exclude``` | SERVICE	Exclude a service (can be used multiple times) |
-| ```--include``` | SERVICE	Force include a service, even if excluded (can be used multiple times) |
+| ```--exclude``` SERVICE | Exclude a service (can be used multiple times) |
+| ```--include``` SERVICE | Force include a service, even if excluded (can be used multiple times) |
 | ```--dry-run``` | Show what would be updated without running any commands |
 | ```--help```, ```-h``` | Show usage information |
 
